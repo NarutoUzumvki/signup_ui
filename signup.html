@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Lacquer&family=Rubik+Burned&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Lacquer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Lacquer&family=Rubik+Burned&display=swap" rel="stylesheet">
+    <style>
+        /* .form-id {
+         
+        } */
+        #first-div{
+            border: 7px solid black;
+            background-color: #1f1f1f;
+            width: 100%;
+            height: auto;
+            margin: 0px;
+        }
+        #form-id{
+            margin: 30px;
+            border: 5px solid beige;
+            border-radius: 10px;
+            padding: 10px 150px 20px 120px;
+            text-align: right;
+            background-color: black;
+            height: 415px;
+
+            /* font-family: "Jaro", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal; */
+
+            font-family: "Rubik Burned", system-ui;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+        div h5{
+            color:beige;
+        }
+        #head-text{
+            color: antiquewhite;
+            font-size: larger;
+            text-align: center;
+            font-weight: bolder;
+            border: 5px solid beige;
+            border-radius: 10px;
+            text-align: center;
+            height:639px;
+            margin-bottom: 0px ;
+
+            font-family: "Lacquer", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .input-class{
+            color: beige;
+            background-color: beige;
+            border: 3px beige solid;
+            border-radius: 7px;
+            caret-color: rgb(176, 20, 155);
+            /* text-align: center; */
+
+            font-family: "Lacquer", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .input-class:focus{
+            background-color: bisque;
+            color: darkblue;
+        }
+        #submit-btn{
+            color: darkolivegreen;
+            background-color: beige;
+            border-radius: 10px;
+            border: 5px solid beige;
+            cursor: pointer;
+            /* cursor-color: yellow; */
+
+            font-family: "Lacquer", system-ui;
+            font-weight: 400;
+            font-style: normal; 
+        }
+        #submit-btn:hover{
+            color: blue;
+            background-color: green;
+            border: 5px solid green;
+        }
+        #drop-options{
+            background-color: beige;
+            border: 5px solid beige;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+        #drop-options:hover{
+            background-color: bisque;
+            color: darkblue;
+            border: 5px solid bisque;
+        }
+        /* #drop-options:focus{
+            color: red;
+            background-color: antiquewhite;
+        } */
+        #float-id{
+            float: left;
+            border-radius: 220px;
+            height: 350;
+            width: 350;
+            padding-top: 15px;
+        }
+        #clear{
+            clear: left;
+        }
+        .opt{
+            border: 3px bisque solid;
+            border-radius: 7px;
+            background-color: bisque;
+            color: darkblue;
+            /* cursor: pointer; */
+        }
+        /* placeholder{
+            
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="first-div">
+        <div id="head-text">        
+            <h1>Sign Up</h1>
+            <h3>to continue to ^_^</h3>
+            <form action="" method="">
+                <div id="form-id">
+                    <img id="float-id" src="./static/signup.jpeg" alt="Image" width="380px" height="392px">
+                    <h5>First Name :- <input class="input-class" type="text" placeholder="Enter First Name"></h5>
+                    <h5>Last Name :- <input class="input-class" type="text" placeholder="Enter Last Name"></h5>
+                    <h5>E-mail :- <input class="input-class" type="email" placeholder="Enter your Email"></h5>
+                    <h5>Mobile.No :- <input class="input-class" type="number" placeholder="Enter Mobile Number" max="9999999999"></h5>
+                    <h5>Select Gender :-
+                        <select name="" id="drop-options">
+                        <option class="opt">Male</option>
+                        <option class="opt">Female</option>
+                        <option class="opt">Transgender</option>
+                        </select>
+                    </h5>
+                    <h5>Enter Password :- <input class="input-class" type="password" placeholder="Enter your Password"></h5>
+                    <h5>Confirm Password :- <input class="input-class" type="password" placeholder="Confirm your Password"></h5>
+                    <button id="submit-btn" type="submit"><b>Create Account<b></button>
+                </div>
+            </form>
+        </div>    
+    </div>
+</body>
+</html>
